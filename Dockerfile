@@ -1,4 +1,4 @@
-FROM jeanim/mayabase-centos
+FROM jeanim/mayadesktop-centos
  
 MAINTAINER marcus@abstractfactory.io
  
