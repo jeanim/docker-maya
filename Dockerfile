@@ -1,4 +1,4 @@
-FROM mottosso/mayabase-centos
+FROM jeanim/mayabase-centos
  
 MAINTAINER marcus@abstractfactory.io
  
