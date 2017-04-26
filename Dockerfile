@@ -7,7 +7,7 @@ MAINTAINER jeanimator@gmail.com
 RUN wget http://download.autodesk.com/us/support/files/maya_2015_service_pack_6/Autodesk_Maya_2015_SP6_EN_Linux.tgz -O maya.tgz && \
     mkdir /maya && tar -xvf maya.tgz -C /maya && \
     rm maya.tgz && \
-    rpm -Uvh /maya/Maya*.rpm && \
+    rpm -Uvh /maya/*.rpm && \
     rm -r /maya
 
 # Make mayapy the default Python
