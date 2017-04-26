@@ -1,6 +1,6 @@
 FROM jeanim/mayadesktop-centos
 
-MAINTAINER marcus@abstractfactory.io
+MAINTAINER jeanimator@gmail.com
 
 # Download and unpack distribution first, Docker's caching
 # mechanism will ensure that this only happens once.
