@@ -1,7 +1,7 @@
-FROM mottosso/mayabase-centos
- 
-MAINTAINER marcus@abstractfactory.io
- 
+FROM jeanim/mayadesktop-centos
+
+MAINTAINER jeanimator@gmail.com
+
 # Download and unpack distribution first, Docker's caching
 # mechanism will ensure that this only happens once.
 RUN wget http://download.autodesk.com/us/support/files/maya_2015_service_pack_6/Autodesk_Maya_2015_SP6_EN_Linux.tgz -O maya.tgz && \
