@@ -13,14 +13,14 @@ For more information about this image and its history, please see its the [GitHu
 To use this image and any of it's supported tags, use `docker run`.
 
 ```bash
-$ docker run -ti --rm mottosso/maya
+$ docker run -ti --rm jeanim/maya
 ```
 
 Without a "tag", this would download the latest available image of Maya. You can explicitly specify a version with a tag.
 
 
 ```bash
-$ docker run -ti --rm mottosso/maya:2016sp1
+$ docker run -ti --rm jeanim/maya:2016sp1
 ```
 
 Images occupy around **5 gb** of virtual disk space once installed, and about **1.5 gb** of bandwidth to download.
@@ -30,7 +30,7 @@ Images occupy around **5 gb** of virtual disk space once installed, and about **
 This example will run the latest available version of Maya, create a new scene and save it in your current working directory.
 
 ```bash
-$ docker run -ti -v $(pwd)/root/workdir --rm mottosso/maya
+$ docker run -ti -v $(pwd)/root/workdir --rm jeanim/maya
 $ mayapy
 >>> from maya import standalone, cmds
 >>> standalone.initialize()
